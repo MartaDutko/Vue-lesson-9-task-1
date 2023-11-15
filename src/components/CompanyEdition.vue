@@ -16,8 +16,8 @@
             Owner
             <input v-model="currentObject.owner" type="text" />
         </label>
-        <button class="btn" v-if="userId" @click="onSave">Save</button>
-        <button class="btn" v-else @click="onCreate">Create</button>
+        <button v-if="userId" @click="onSave" class="btn">Save</button>
+        <button v-else @click="onCreate" class="btn" >Create</button>
     </div>
 </template>
 

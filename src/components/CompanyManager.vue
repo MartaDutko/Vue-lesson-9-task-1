@@ -1,9 +1,9 @@
 <template>
 <div class="wrapper">
         <company-filters />
-    <companies-list :companyData="getFilterList"/>
+    <companies-list :company-data="getFilterList"/>
     <div class="createCompanyBtn">
-        <button class="create" @click="onCreate">Create Company</button>
+        <button @click="onCreate" class="create">Create Company</button>
     </div>
 </div>
 </template>

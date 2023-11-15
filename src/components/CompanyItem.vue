@@ -6,8 +6,8 @@
         <span>{{ companyInfo.yearOfEstablishment }}</span>
         <span>{{ companyInfo.owner }}</span>
         <div class="block-btn">
-            <button class="btn-delete" @click="onDelete(companyInfo.id)">Delit</button>
-            <button class="btn-edit" @click="onEdit(companyInfo.id)">Edit</button>
+            <button  @click="onDelete(companyInfo.id)" class="btn-delete">Delit</button>
+            <button  @click="onEdit(companyInfo.id)" class="btn-edit">Edit</button>
         </div>
     </div>
 </template>
